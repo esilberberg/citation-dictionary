@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Citation Dictionary | Queens College Library</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <p class="whycite"><a href="https://qc-cuny.libguides.com/c.php?g=216838&p=9375013#s-lg-box-29654589" target="_blank">Why Cite?</a></p>
+            <h1>Citation Dictionary</h1>
+            <p>From Queens College Library</p>
+        </header>
+        <section id="filters">
+            <div class="selectors">
+                <select name="resources" id="resources">
+                    <option disabled selected value="">-- Resource --</option>
+                    <option value="Article">Article</option>
+                    <option value="Book">Book</option>
+                </select>
+                <select name="style" id="style">
+                    <option disabled selected value="">-- Style --</option>
+                    <option value="APA">APA</option>
+                    <option value="MLA">MLA</option>
+                </select>
+                
+            </div>
+            <button id="go">Go</button>
+        </section>
+
+        <div id="display"></div>
+        <div id="loader"><div></div><div></div><div></div><div></div></div>
+    </div>    
+</body>
+<script src="app.js"></script>
+</html>
